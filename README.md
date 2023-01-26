@@ -22,7 +22,7 @@ A wrapper around keyboard notifications.
 
 ### CocoaPods
 
-To integrate KeyboardHanler into your Xcode project with CocoaPods, specify it in your `Podfile`:
+To integrate KeyboardHandler into your Xcode project with CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 pod 'Shakuro.KeyboardHandler'
@@ -94,7 +94,7 @@ private func controlWithKeyboardIsEditing() -> Bool {
 
 ## License
 
-Shakuro.Router is released under the MIT license. [See LICENSE](https://github.com/shakurocom/KeyboardHandler/blob/main/LICENSE.md) for details.
+Shakuro.KeyboardHandler is released under the MIT license. [See LICENSE](https://github.com/shakurocom/KeyboardHandler/blob/main/LICENSE.md) for details.
 
 ## Give it a try and reach us
 
