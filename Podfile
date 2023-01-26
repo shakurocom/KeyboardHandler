@@ -1,18 +1,18 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 use_frameworks!
 
-workspace 'InfinityScrollView'
+workspace 'KeyboardHandler'
 
-target 'InfinityScrollView_Framework' do
-    project 'InfinityScrollView_Framework.xcodeproj'
+target 'KeyboardHandlerFramework' do
+    project 'KeyboardHandlerFramework.xcodeproj'
     pod 'Shakuro.CommonTypes', '1.1.1'
 end
 
-target 'InfinityScrollView_Example' do
-    project 'InfinityScrollView_Example.xcodeproj'
+target 'KeyboardHandlerExample' do
+    project 'KeyboardHandlerExample.xcodeproj'
     pod 'SwiftLint', '0.43.1'
     pod 'Shakuro.CommonTypes', '1.1.1'
 end
